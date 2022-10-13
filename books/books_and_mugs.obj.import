@@ -1,0 +1,20 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/books_and_mugs.obj-2e9aa258b9a4d2f3893d29fc83b3c6ba.mesh"
+
+[deps]
+
+files=[ "res://.import/books_and_mugs.obj-2e9aa258b9a4d2f3893d29fc83b3c6ba.mesh" ]
+
+source_file="res://books/books_and_mugs.obj"
+dest_files=[ "res://.import/books_and_mugs.obj-2e9aa258b9a4d2f3893d29fc83b3c6ba.mesh", "res://.import/books_and_mugs.obj-2e9aa258b9a4d2f3893d29fc83b3c6ba.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+octahedral_compression=true
+optimize_mesh_flags=4286

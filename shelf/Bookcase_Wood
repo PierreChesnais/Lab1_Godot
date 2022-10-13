@@ -1,0 +1,79 @@
+//--lux:mat:5--
+//--lux:shader:5:0--
+// KeyShot material file - KeyShot [64 bit] v6.0.264
+#define shader 1 texture_bumpmap_normal {
+"project" 4,
+"filter" 0,
+"wrap" on,
+"bilinear" on,
+"modulate" off,
+"scale" 1,
+"texture_index" 0,
+"bias" -2,
+"texture" "C:\Users\Asus\Documents\KeyShot 6\Textures\beechwood_brown.png",
+"default_normal" 0 0 0,
+"bump_scale" 1,
+"transform" 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1,
+"transform_obj_to_uv" 0.209701 0 0 0 0 0.209701 0 0 0 0 0.209701 0 -8.89031e-010 4.73705 -2.48163e-010 1,
+"world_space" off,
+"shift_u" -0.5,
+"shift_v" -0.5,
+"scale_u" 1,
+"scale_v" 1,
+"angle" 0,
+"contrast" 1,
+"texture_depth" 1,
+"dpi" -72,
+"two_sided" on,
+"sync" on,
+"disabled" off,
+"texture_face" 0,
+}
+#define shader 2 texture_rgb {
+"project" 4,
+"filter" 0,
+"wrap" on,
+"bilinear" on,
+"modulate" off,
+"scale" 1,
+"texture_index" 0,
+"bias" -2,
+"texture" "C:\Users\Asus\Documents\KeyShot 6\Textures\beechwood_brown.png",
+"default_color" 0.792157 0.819608 0.933333,
+"color_scale" 1,
+"transform" 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1,
+"transform_obj_to_uv" 0.209701 0 0 0 0 0.209701 0 0 0 0 0.209701 0 -8.89031e-010 4.73705 -2.48163e-010 1,
+"world_space" off,
+"shift_u" -0.5,
+"shift_v" -0.5,
+"scale_u" 1,
+"scale_v" 1,
+"angle" 0,
+"contrast" 1,
+"texture_depth" 1,
+"dpi" -72,
+"two_sided" on,
+"sync" on,
+"disabled" off,
+"texture_face" 0,
+}
+#define shader 3 lux_plastic_simple {
+"diffuse" 0.792157 0.819608 0.933333,
+"diffuse" ! 2,
+"alpha" 1,
+"specular" 1 1 1,
+"roughness" 0.05,
+"ior" 1.224,
+}
+#define shader 4 lux_bumpmap {
+"bumpmap" 1,
+"bumpmap" 1,
+"shader" 3,
+"shader" 3,
+"bump_scale" 1,
+}
+
+#define material "Material Ball #3" {
+surface 4
+id 1217
+}
